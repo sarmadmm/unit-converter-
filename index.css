@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+/*below is the code for the hero of the converter*/
+.hero {
+    background: #6943FF;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+#unit-input {
+    width: 117px;
+    height: 83px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    border: 2px solid #B295FF;
+    color: white;
+    background: #6943FF;
+    text-align: center;
+    font-size: 58px;
+}
+#convert-btn {
+    width: 117px;
+    height: 42px;
+    border: none;
+    border-radius: 5px;
+    background: white;
+    color: #3D3D3D;
+    margin-bottom: 20px;
+}
+
+/*This is the CSS for sections of output*/
+.main {
+    background: #f4f4f4;
+    padding: 20px;
+}
+
+.section {
+    color: #5A537B;
+    background: white;
+    padding: 5px;
+    margin-top: 20px;
+}
